@@ -81,7 +81,7 @@ public class ProdutosController : ControllerBase
             }
         }
 
-        [HttpPut]
+        [HttpDelete]
         [Route("apagar/{id:int}")]
         ActionResult apagar(int id)
         {
